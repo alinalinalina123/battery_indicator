@@ -3,6 +3,8 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 
+/// Comment by Anton Podolyanchik
+
 class BatteryIndicator {
   static const MethodChannel _channel = MethodChannel('battery_indicator');
   static const String _getBatteryIndicatorMethod = 'get_battery_indicator';
